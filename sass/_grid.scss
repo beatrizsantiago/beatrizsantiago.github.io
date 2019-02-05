@@ -1,0 +1,15 @@
+$columns: 12;
+@function width-column($width) {
+    @return percentage($width/$columns);
+}
+
+@for $i from 1 through $columns {
+    .column-#{$i} {
+        width: width-column($i);
+    }
+}
+
+/*.row {
+    position: relative;
+    width: 100%;
+}*/
