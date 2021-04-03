@@ -1,6 +1,6 @@
 <h1 align="center">Personal portfolio</h1>
 
-## Link
+Link: 
 
 - [beatrizsantiago.github.io](https://beatrizsantiago.github.io/)
 
