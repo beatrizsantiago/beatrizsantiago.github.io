@@ -77,7 +77,7 @@ section.about-me {
   line-height: 1.2;
 }
 
-.about-me img {
+.about-me .github-icon {
   position: relative;
   width: 140px;
 }
