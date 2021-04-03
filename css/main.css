@@ -91,6 +91,10 @@ hr {
 }
 
 .skills {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   margin: 25px 0px;
 }
 
@@ -105,6 +109,12 @@ hr {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+@media only screen and (min-width: 1400px) {
+  .skills .technologies {
+    width: 60%;
+  }
 }
 
 .skills .technologies .card {
