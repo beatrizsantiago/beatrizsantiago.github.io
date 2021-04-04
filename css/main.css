@@ -108,13 +108,7 @@ hr {
 .skills .technologies {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-@media only screen and (min-width: 1400px) {
-  .skills .technologies {
-    width: 60%;
-  }
+  justify-content: center;
 }
 
 .skills .technologies .card {
@@ -122,8 +116,8 @@ hr {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   margin: 10px;
   padding: 10px;
   border-radius: 6px;
